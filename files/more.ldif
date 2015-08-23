@@ -1,0 +1,85 @@
+dn: cn=bahaaldine,ou=Users,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: bahaaldine
+sn: azarmi
+uid: bahaaldineazarmi
+userpassword: bazarmi
+mail: baha@elastic.co
+description: the gif man
+ou: Solutions Architect
+
+dn: cn=morgan,ou=Users,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: morgan
+sn: goller
+uid: morgangoller
+userpassword: mgoller
+mail: morgan@elastic.co
+ou: Solutions Architect
+
+dn: cn=steve,ou=Users,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: steve
+sn: mayzak
+uid: stevemayzak
+userpassword: smayzak
+mail: mayzak@elastic.co
+description: esbium
+ou: Solutions Architect
+
+dn: cn=dimitri,ou=Users,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: dimitri
+sn: marx
+uid: dimitri
+userpassword: dmarx
+mail: dimitri@elastic.co
+description: elasticmarx
+ou: Solutions Architect
+
+dn: cn=alan,ou=Marvels,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: alan
+sn: hardy
+uid: alanhardy
+userpassword: ahardy
+mail: alan@elastic.co
+ou: Solutions Architect
+
+dn: cn=christoph,ou=Marvels,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: christoph
+sn: wurm
+uid: christophwurm
+userpassword: cwurm
+mail: wurm@elastic.co
+ou: Solutions Architect
+
+dn: cn=david,ou=Marvels,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: david
+sn: erickson
+uid: daveerickson
+userpassword: derickson
+mail: dave@elastic.co
+description: dave
+ou: Solutions Architect
+
+dn: cn=agent,ou=Marvels,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: agent
+sn: marvel
+uid: agentmarvel
+userpassword: amarvel
+mail: noreply@marvel-agent.elastic.co
+ou: agent
+
+dn: cn=antoine,ou=Watchers,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: antoine
+sn: girbal
+uid: antoinegirbal
+userpassword: agirbal
+mail: antoine@elastic.co
+description: edgy / tonio
+ou: Solutions Architect

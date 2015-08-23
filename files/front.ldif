@@ -1,0 +1,17 @@
+dn: dc=elastic,dc=co
+dc: elastic
+objectClass: dcObject
+objectClass: organizationalUnit
+ou: elastic
+
+dn: ou=Users,dc=elastic,dc=co
+objectClass: organizationalUnit
+ou: Users
+
+dn: ou=Marvels,dc=elastic,dc=co
+objectClass: organizationalUnit
+ou: Marvels
+
+dn: ou=Watchers,dc=elastic,dc=co
+objectClass: organizationalUnit
+ou: Marvels
