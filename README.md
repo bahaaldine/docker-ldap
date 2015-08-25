@@ -3,7 +3,7 @@ LDAP.
 
 [![](https://badge.imagelayers.io/bahaaldine/docker-ldap:latest.svg)](https://imagelayers.io/?images=bahaaldine/docker-ldap:latest 'Get your own badge on imagelayers.io')
 
-# Image description
+## Image description ##
 
 This is a LDAP server used for demoing Elastisearch Shield security plugins.
 It comes with a pre-configured base of users & groups: 
@@ -12,20 +12,20 @@ It comes with a pre-configured base of users & groups:
 - The `dn: ou=Marvels,dc=elastic,dc=co`group : is the Marvel UI users group
 - The `dn: ou=Watcher,dc=elastic,dc=co`group : is the Watcher manager group
 
-# Installation
+## Installation ##
 
 ```bash
 $ docker pull bahaaldine/docker-ldap
 ```
 
-# Running as a standalone container
+## Running as a standalone container ##
 
 ```bash
 $ docker run -d -p 389:389 --name ldap -t bahaaldine/docker-ldap
 ```
 - 389 : LDAP listening port
 
-# Running as part of a Docker Compose application
+## Running as part of a Docker Compose application ##
 
 ```lang
 ldap1:
@@ -68,7 +68,7 @@ The admin user/passwd and BaseDN list below
     Group BaseDN                   [ou=Users,dc=elastic,dc=co]:
 
 
-# Customize your own data #
+## Customize your own data ##
 
 You can create for your own by checking `files/more.ldif`
 
