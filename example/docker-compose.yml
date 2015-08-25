@@ -1,0 +1,18 @@
+ldap1:
+  image: bahaaldine/docker-ldap
+  volumes:
+    - "conf/ldap:/tmp/files"
+  ports:
+    - "389:389"
+
+elasticsearch1:
+  image: bahaaldine/docker-elasticsearch
+  ports:
+    - "9200:9200"
+  volumes:
+    - "logs/elasticsearch1:/var/log/elasticsearch"
+    - "conf/elasticsearch:/etc/elasticsearch"
+    - "data:/data"
+  extra_hosts:
+    - "elasticsearch:192.168.59.103"
+    - "ldap:192.168.59.103"

@@ -37,6 +37,16 @@ mail: dimitri@elastic.co
 description: elasticmarx
 ou: Solutions Architect
 
+dn: cn=matias,ou=Users,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: matias
+sn: cascallares
+uid: matiascascallares
+userpassword: mcascallares
+mail: matias@elastic.co
+description: matias
+ou: Solutions Architect
+
 dn: cn=alan,ou=Marvels,dc=elastic,dc=co
 objectclass: inetOrgPerson
 cn: alan
@@ -82,4 +92,41 @@ uid: antoinegirbal
 userpassword: agirbal
 mail: antoine@elastic.co
 description: edgy / tonio
+ou: Solutions Architect
+
+dn: cn=catherine,ou=Watchers,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: catherine
+sn: johnson
+uid: catherinejohnson
+userpassword: cjohnson
+mail: cj@elastic.co
+ou: Solutions Architect
+
+dn: cn=christian,ou=Watchers,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: christian
+sn: dahlqvist
+uid: christiandahlqvist
+userpassword: cdahlqvist
+mail: christian@elastic.co
+description: alchemist
+ou: Solutions Architect
+
+dn: cn=jeremy,ou=Watchers,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: jeremy
+sn: jhorton
+uid: jeremyhorton
+userpassword: jhorton
+mail: horton@elastic.co
+ou: Solutions Architect
+
+dn: cn=peter,ou=Watchers,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: peter
+sn: kim
+uid: peterkim
+userpassword: pkim
+mail: peter@elastic.co
 ou: Solutions Architect
