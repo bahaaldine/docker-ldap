@@ -85,3 +85,14 @@ The file will be added by command
 
     ldapadd -x -D cn=admin,dc=elastic,dc=co -w password -c -f more.ldif
 
+## Building the Docker image
+
+You can use the shipped `Makefile` to build the image 
+
+```bash
+make all
+````
+Available arguments:
+- build: build the docker image
+- tag_latest: tag version to latest version
+- all: apply build and tag_latest

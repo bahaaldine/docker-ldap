@@ -69,7 +69,7 @@ The LDAP server is listening on port 389
 
 ### shield *.yml files ###
 
-#### roles.yml #### 
+#### roles.yml
 
 A list of existing roles are shipped out of the box with Shield, but some of them 
 are missing and should be added to the roles.yml file, such as the followings:
@@ -96,7 +96,7 @@ watcher_admin:
 - marvel_agent: is dedicated to create and write data in the marvel index.
 - watcher_admin: is the role used to manage watcher.
 
-#### role_mapping.yml #### 
+#### role_mapping.yml 
 
 The role mapping file map the LDAP users/groups to the Shield roles:
 
@@ -125,7 +125,7 @@ watcher_admin:
 
 #### shield configuration ####
 
-Elasticsearch Shield configuration is based on the following documentation link('https://www.elastic.co/guide/en/shield/current/ldap.html#_ldap_realm_with_user_dn_templates')
+Elasticsearch Shield configuration is based on the following documentation [link](https://www.elastic.co/guide/en/shield/current/ldap.html#_ldap_realm_with_user_dn_templates)
 
 ```lang
 shield:
