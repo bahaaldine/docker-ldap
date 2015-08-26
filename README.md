@@ -41,9 +41,10 @@ ldap1:
     - "389:389"
 ```
 
-The volumes section lets you map host directory to container directories, here, the `more.ldif` files
-    - front.ldif: allows to add groups to the LDAP
-    - more.ldif: allows to add users to the LDAP
+The volumes section lets you map host directory to container directories, here, the `more.ldif` files:
+
+ - front.ldif: allows to add groups to the LDAP
+ - more.ldif: allows to add users to the LDAP
 
 
 ## Verify the data inside the ldap database ##
