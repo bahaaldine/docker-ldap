@@ -20,7 +20,7 @@ $ docker pull bahaaldine/docker-ldap
 
 ## Demo ##
 
-A Docker Compose demo project is available under the example folder
+A Docker Compose demo project is available under the (example)[https://github.com/bahaaldine/docker-ldap/tree/master/example] folder
 
 ## Running as a standalone container ##
 
