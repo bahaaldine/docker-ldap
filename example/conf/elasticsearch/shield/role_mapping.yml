@@ -24,6 +24,7 @@ admin:
   - "cn=steve,ou=Users,dc=elastic,dc=co"
   - "cn=dimitri,ou=Users,dc=elastic,dc=co"
   - "cn=antoine,ou=Watchers,dc=elastic,dc=co"
+  - "cn=matias,ou=Watchers,dc=elastic,dc=co"
 
 marvel_user:
   - "cn=alan,ou=Marvels,dc=elastic,dc=co"
