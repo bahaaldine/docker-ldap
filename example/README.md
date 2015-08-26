@@ -36,24 +36,24 @@ The DN template used to designate all users is:
 Here is the list of users splitted by groups:
 
 - Users:
-    - bahaaldine
-    - morgan
-    - steve
-    - dimitri
-    - matias
+    - bahaaldine / bazarim
+    - morgan / mgoeller
+    - steve / smayzak
+    - dimitri / dmarx
+    - matias / mcascallares
 
 - Marvels
-    - alan
-    - christoph
-    - david
-    - agent
+    - alan / ahardy
+    - christoph / cwurm
+    - david / derickson
+    - agent / amarvel
 
 - Watchers
-    - antoine
-    - catherine
-    - christian
-    - jeremy
-    - peter
+    - antoine / agirbal
+    - catherine / cjohnson
+    - christian / cdahlqvist
+    - jeremy / jhorton
+    - peter / pkim
 
 The LDAP admin user has the following credentials:
 

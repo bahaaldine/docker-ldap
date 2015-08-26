@@ -87,7 +87,8 @@ The file will be added by command
 
 ## Building the Docker image
 
-You can use the shipped `Makefile` to build the image 
+You can use the shipped `Makefile` to build the image,
+exemple:
 
 ```bash
 make all
