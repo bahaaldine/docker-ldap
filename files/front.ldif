@@ -15,3 +15,7 @@ ou: Marvels
 dn: ou=Watchers,dc=elastic,dc=co
 objectClass: organizationalUnit
 ou: Marvels
+
+dn: ou=Kibanas,dc=elastic,dc=co
+objectClass: organizationalUnit
+ou: Kibanas

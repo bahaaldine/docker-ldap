@@ -37,3 +37,10 @@ marvel_agent:
 
 watcher_admin:
   - "cn=antoine,ou=Watchers,dc=elastic,dc=co"
+
+kibana4_server:
+  - "cn=server,ou=Kibanas,dc=elastic,dc=co"
+
+kibana4:
+  - "cn=peter,ou=Kibanas,dc=elastic,dc=co"
+  - "cn=jeremy,ou=Kibanas,dc=elastic,dc=co"

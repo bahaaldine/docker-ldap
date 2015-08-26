@@ -113,7 +113,7 @@ mail: christian@elastic.co
 description: alchemist
 ou: Solutions Architect
 
-dn: cn=jeremy,ou=Watchers,dc=elastic,dc=co
+dn: cn=jeremy,ou=Kibanas,dc=elastic,dc=co
 objectclass: inetOrgPerson
 cn: jeremy
 sn: jhorton
@@ -122,7 +122,7 @@ userpassword: jhorton
 mail: horton@elastic.co
 ou: Solutions Architect
 
-dn: cn=peter,ou=Watchers,dc=elastic,dc=co
+dn: cn=peter,ou=Kibanas,dc=elastic,dc=co
 objectclass: inetOrgPerson
 cn: peter
 sn: kim
@@ -130,3 +130,11 @@ uid: peterkim
 userpassword: pkim
 mail: peter@elastic.co
 ou: Solutions Architect
+
+dn: cn=server,ou=Kibanas,dc=elastic,dc=co
+objectclass: inetOrgPerson
+cn: kibana
+sn: server
+uid: serverkibana
+userpassword: kserver
+ou: Kibana Server
