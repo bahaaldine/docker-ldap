@@ -13,7 +13,7 @@ elasticsearch1:
     - "logs/elasticsearch1:/var/log/elasticsearch"
     - "conf/elasticsearch:/etc/elasticsearch"
     - "data:/data"
-  link:
+  links:
     - ldap1:ldap
   extra_hosts:
     - "elasticsearch:192.168.59.103"
