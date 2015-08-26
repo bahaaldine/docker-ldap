@@ -18,6 +18,10 @@ It comes with a pre-configured base of users & groups:
 $ docker pull bahaaldine/docker-ldap
 ```
 
+## Demo ##
+
+A Docker Compose demo project is available under the example folder
+
 ## Running as a standalone container ##
 
 ```bash
