@@ -36,7 +36,7 @@ The DN template used to designate all users is:
 Here is the list of users splitted by groups:
 
 - Users:
-    - bahaaldine / bazarim
+    - bahaaldine / bazarmi
     - morgan / mgoeller
     - steve / smayzak
     - dimitri / dmarx
